@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -g
+CFLAGS = -g
 OBJS = main.o addition.o subtraction.o multiplication.o division.o
 
 calculator: $(OBJS)
